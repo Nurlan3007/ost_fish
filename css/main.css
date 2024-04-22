@@ -1,0 +1,671 @@
+@media screen and (max-width: 900px) {
+
+}
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+body {
+    font-family: "Objektiv Mk3 Trial Medium";
+    font-style: normal;
+    font-size: 17px;
+    color: #fff;
+}
+
+button:hover {
+  color: white;
+  background: #00CAFA;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 1370px;
+    margin: 0 auto;
+}
+
+/* Header styles start */
+/*.header{*/
+/*    position: absolute; !*Нужно потом fixed поставить*!*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 100%;*/
+/*}*/
+
+.header{
+    background-image: url("../img/svg/ikra.svg");
+    background-size: cover;
+    background-repeat:no-repeat ;
+    height: 920px;
+}
+
+.head__values {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.head__top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 57px;
+    width: 100%;
+    position: relative;
+
+}
+
+.telefon {
+    position: absolute;
+    right: 165px
+}
+
+.contact_number {
+    position: relative;
+    left: 15px;
+}
+
+.head__top a{
+    color: #FFF;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.logo {
+    margin-right: 75px;
+}
+
+.intro {
+    width: 575.728px;
+    height: 317.155px;
+    flex-shrink: 0;
+    font-family: "Objektiv Mk3 Trial Thin";
+    font-style: normal;
+}
+
+.intro_text {
+    leading-trim: both;
+    text-edge: cap;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px; /* 115.385% */
+    margin-top: 170px;
+    width: 576px;
+
+}
+
+.intro_descr {
+    margin-top: 20px;
+    width: 519px;
+    color: #C6C6C6;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+}
+
+.to_catalog {
+    margin-top: 36px;
+    font-family: "Objektiv Mk3 Trial XBold";
+    width: 250.401px;
+    height: 51.058px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    color: #00CAFA;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}
+
+.whatsapp {
+    margin-top: 230px;
+    margin-left: 1450px;
+}
+
+/*Header styles end */
+
+/*Description_part styles start */
+main {
+    background: #101010;
+}
+
+.header_of_desc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 105px;
+
+}
+
+.unique_properites {
+
+    leading-trim: both;
+    text-edge: cap;
+    font-family: "Objektiv Mk3 Trial Thin";
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 60px; /* 115.385% */
+    width: 569.465px;
+}
+
+.curve_line_descr {
+    margin-top: 37px
+}
+
+.descr_text {
+    color: #999;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: "Objektiv Mk3 Trial Thin";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px; /* 154.545% */
+    width: 554.04px;
+}
+
+
+.description_of_properties {
+    height: 700px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 82px;
+}
+
+.descr_rectangle {
+    width: 389px;
+    height: 650px;
+}
+
+.text_of_rect {
+    margin-top: 47px;
+    margin-bottom: 15px;
+    color: #FFF;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 115.385% */
+}
+
+.desc_of_rect {
+    font-family: "Objektiv Mk3 Trial Thin";
+    color: #999;
+    margin-top: 15px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+}
+
+.product_of_fish {
+    margin-top: 105px;
+    margin-bottom: 22px;
+    color: #545454;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 115.385% */
+}
+
+/*Description_part styles end */
+
+/*Catalogue_part styles start */
+
+.catalogue_parts {
+    margin-top: 60px;
+}
+
+.catalogue_part1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Objektiv Mk3 Trial Thin";
+    margin-right: 60px;
+    color: #FFF;
+    leading-trim: both;
+    text-edge: cap;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 60px; /* 115.385% */
+}
+
+.numeration {
+    color: #545454;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+
+}
+
+.image_in_catalogue {
+    margin-top: 24px;
+    margin-right: 60px;
+}
+
+.num_and_img {
+    margin-bottom: 250px;
+}
+
+
+.types {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 168px;
+    margin-top: 32px;
+    color: #8A8A8A;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: "Objektiv Mk3 Trial Thin";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+    margin-right: 15px;
+
+}
+
+
+.product_desc {
+    margin-top: 25px;
+    width: 754px;
+    color: #999;
+    font-family: "Objektiv Mk3 Trial Thin";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+}
+
+
+.available {
+    margin-top: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 420px;
+    height: 12px;
+    color: #8A8A8A;
+    leading-trim: both;
+    text-edge: cap;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+}
+
+.buttons {
+    margin-top: 23px;
+    display: flex;
+    align-items: center;
+ }
+
+.choose_buttons_gram {
+    width: 185px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+}
+
+.choose_buttons_package {
+    margin-left: 71px;
+    width: 161px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.choosing_buttons {
+    margin-right: 4px;
+    background: #101010;
+    color: #8A8A8A;
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: "Objektiv Mk3 Trial Thin";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 214.286% */
+    width: 58.386px;
+    height: 35.505px;
+    flex-shrink: 0;
+    border-radius: 60px;
+    border: 1px solid #757575;
+}
+
+.price {
+    margin-top: 37px;
+}
+
+.tsena {
+    color: #8A8A8A;
+    leading-trim: both;
+    text-edge: cap;
+    font-size: 16px;
+    font-family: "Objektiv Mk3 Trial Thin";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.cur_and_prev_prices {
+    width: 291px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.current_price {
+
+    color: #FFF;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: "Objektiv Mk3 Trial Medium";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px; /* 150% */
+}
+
+.previous_price {
+    color: #8A8A8A;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: "Objektiv Mk3 Trial Medium";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px; /* 250% */
+}
+
+.horizonatal_line {
+    width: 1216px;
+    height: 0px;
+    flex-shrink: 0;
+    margin-bottom: 68px;
+}
+
+.otstup {
+    margin-bottom: 105px;
+}
+
+/*Catalogue_part styles end */
+
+/*Application styles start */
+.gradient {
+    background-image: linear-gradient(79deg, #000 16.37%, rgba(0, 0, 0, 0.00) 73.75%);
+    height: 900px;
+}
+
+
+.application {
+    height: 900px;
+    background-image: url("../img/svg/Black.png");
+    background-size: cover;
+    background-repeat:no-repeat ;
+}
+
+.brilliant_box {
+    padding-top: 170px;
+    width: 643px;
+    height: 429px;
+}
+
+.brilliant {
+    width: 642.939px;
+    eading-trim: both;
+    font-family: "Objektiv Mk3 Trial Thin";
+    margin-bottom: 37px;
+    text-edge: cap;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px; /* 115.385% */
+}
+
+.delivery {
+    color: #D6D6D6;
+    font-family: "Objektiv Mk3 Trial Thin";
+    margin-top: 26px;
+    margin-bottom: 32px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+}
+
+.input_boxes {
+
+}
+
+input{
+    color: #CDCDCD;
+    font-family: "Objektiv Mk3 Trial";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 133.333% */
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.30);
+    backdrop-filter: blur(10px);
+}
+
+#user {
+    width: 270.167px;
+    height: 50.767px;
+    flex-shrink: 0;
+}
+
+#number {
+    margin-left: 11px;
+    width: 222.205px;
+    height: 50.767px;
+    flex-shrink: 0;
+}
+
+#product {
+    margin-top: 15px;
+    width: 507.557px;
+    height: 74.889px;
+    flex-shrink: 0;
+}
+
+/*Гарантия качества start*/
+
+#video {
+  mask: url(#mask);
+}
+
+
+.podpiska {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 103px;
+    height: 650px
+}
+
+
+.inst_rect {
+    width: 226px;
+    height: 388px;
+}
+
+
+.liked_by {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 6.859px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.tags {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 6.859px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 8.329px; /* 121.429% */
+}
+.comments {
+    color: #8A8A8A;
+    font-family: Roboto;
+    font-size: 6.859px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hour_ago {
+    color: #8A8A8A;
+    font-family: Roboto;
+    font-size: 4.899px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.instagram {
+    margin-top: 61px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color: #989898;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: "Objektiv Mk3 Trial Thin";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 55px; /* 275% */
+    text-transform: uppercase;
+}
+
+.hashtag {
+    margin-left: 25px;
+}
+
+.more  {
+    color: #8A8A8A;
+    font-size: 6.859px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 8.329px;
+}
+
+
+/* Contacts start */
+
+.our_contacts {
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contacts_text {
+    margin-bottom: 176px;
+}
+.contacts_rectangle {
+    width: 456px;
+    height: 398px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: 1px solid #353535;
+}
+
+
+.info_text {
+    margin-left: 62px;
+    margin-top: 37px;
+    margin-bottom: 40px;
+}
+
+.gray_text {
+    color: #5E5E5E;
+    font-family: "Objektiv Mk3 Trial Thin";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+
+.white_text {
+    color: #FFF;
+    leading-trim: both;
+    text-edge: cap;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px; /* 210% */
+}
+
+
+.social_media_rec {
+    margin-left: 45px;
+    width: 257px;
+    height: 235px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: 1px solid #353535;
+    margin-bottom: 163px;
+}
+
+.soc_med_icons {
+    margin-left: 62px;
+    margin-bottom: 50px;
+}
+
+.naverh {
+    margin-top: 250px;
+    margin-left: 15px ;
+}
+
+.naverh_text {
+    color: #FFF;
+    text-align: right;
+    leading-trim: both;
+    text-edge: cap;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 80px; /* 160% */
+    letter-spacing: 5px;
+}
+
+.design_line {
+    height: 110px
+}
+
+.abc_design {
+    margin-top: 37px;
+    font-family: "Objektiv Mk3 Trial Thin";
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 144.444% */
+}
